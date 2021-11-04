@@ -27,11 +27,13 @@ ${separadorArriba}
 ║                   
 ╠${flecha} _${prefijo}anunciar + [Anuncio]_
 ║                                 
+╠> << Block On/Off >>
+║                   
+╠${flecha} _${prefijo}block + [@Usuario]_
+║                   
+╠${flecha} _${prefijo}unblock + [@Usuario]_
+║                                 
 ╠> << Tools >>
-║                   
-╠${flecha} _${prefijo}block + [Usuario]_
-║                   
-╠${flecha} _${prefijo}unblock + [Usuario]_
 ║                   
 ╠${flecha} _${prefijo}newgroup + [Nombre]_
 ║                   
@@ -44,6 +46,8 @@ ${separadorArriba}
 ╠${flecha} _${prefijo}update_
 ║                   
 ╠${flecha} _${prefijo}terminal + [Comando]_
+║                   
+╠${flecha} _${prefijo}actualfiles_
 ║                                                     
 ╠> _Powered by *SpiralNodes*_ </3                   
 ║                                                   

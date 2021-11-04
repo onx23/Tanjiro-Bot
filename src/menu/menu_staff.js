@@ -38,6 +38,10 @@ var menu_staff = (nombreBot, owner, nombreOwner, prefijo, creditosDefault, nezuk
 ║
 ╠${flecha} _${prefijo}socialantispam off (👑)_
 ║
+╠${flecha} _${prefijo}postantispam on (👑)_
+║
+╠${flecha} _${prefijo}postantispam off (👑)_
+║
 ╠> << Avisos >>
 ║
 ╠${flecha} _${prefijo}anuncio + [Anuncio] (👑)_
@@ -167,6 +171,10 @@ var menu_staff_premium = (nombreBot, owner, nombreOwner, prefijo, creditosDefaul
 ╠${flecha} _${prefijo}socialantispam on_
 ║
 ╠${flecha} _${prefijo}socialantispam off_
+║
+╠${flecha} _${prefijo}postantispam on_
+║
+╠${flecha} _${prefijo}postantispam off_
 ║
 ╠> << Avisos >>
 ║

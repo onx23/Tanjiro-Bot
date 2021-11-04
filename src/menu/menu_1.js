@@ -42,6 +42,8 @@ ${separadorArriba}
 ╠${flecha} _${prefijo}setup_
 ║                                                     
 ╠${flecha} _${prefijo}perfil_
+║                                                     
+╠${flecha} _${prefijo}perfilgrupo_
 ║
 ╠>   _*🍟 匚𝓗乇ςᛕ 🔥*_
 ║                                                     

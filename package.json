@@ -1,7 +1,7 @@
 {
     "name": "tanjiro-bot",
     "homepage": "https://github.com/Hiro-Beet/Tanjiro-Bot#readme",
-    "version": "1.0.0",
+    "version": "7.6.0",
     "main": "index.js",
     "directories": {
         "lib": "libraries"
@@ -16,14 +16,14 @@
         "async": "3.2.1",
         "axios": "^0.22.0",
         "cfonts": "^2.10.0",
+        "fluent-ffmpeg": "2.1.2",
         "lolcatjs": "^2.4.1",
         "moment-timezone": "^0.5.33",
         "node-fetch": "^2.6.1",
         "nodemon": "^2.0.13",
         "performance-now": "^2.1.0",
-        "spinnies": "^0.5.1",
         "rimraf": "^3.0.2",
-        "fluent-ffmpeg": "2.1.2"
+        "spinnies": "^0.5.1"
     },
     "repository": {
         "type": "git",
