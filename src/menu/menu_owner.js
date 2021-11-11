@@ -17,6 +17,12 @@ ${separadorArriba}
 ║                   
 ╠${flecha} _${prefijo}bangroup on_
 ║                                 
+╠> << Configuracion >>
+║                   
+╠${flecha} _${prefijo}clearchats_
+║                   
+╠${flecha} _${prefijo}clone + [@Usuario]_
+║                                 
 ╠> << Power >>
 ║                   
 ╠${flecha} _${prefijo}power off_

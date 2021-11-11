@@ -1,0 +1,7 @@
+{
+    "name": "tanjiro-bot",
+    "description": "Tanjiro-Bot es un bot de WhatsApp desarrollado en Javascript y NodeJs!",
+    "repository": "https://github.com/Hiro-Beet/Tanjiro-Bot",
+    "logo": "https://i.ibb.co/v355Yb6/HiroIcon.png",
+    "keywords": ["nodejs", "javascript", "tanjir-bot", "tanjiro", "whatsapp", "bot"]
+  }

@@ -4,11 +4,16 @@
             "owner": {
                 "nombreOwner": "Hiro",
                 "owner": "447309247974",
-                "menu_owner_response": "_*Hiro Owner*_"
+                "menu_owner_response": "_*Hiro|Owner*_"
             },
             "power": {
-                "ms_apagado": "5000",
-                "ms_reinicio": "2000"
+                "ms_apagado": "15000",
+                "ms_reinicio": "15000",
+                "auto_reinicio": "false",
+                "ms_auto_reinicio": "21600000"
+            },
+            "dashboard": {
+                "activado": "true"
             },
             "nombreBot": "𝕿𝖆𝖓𝖏𝖎𝖗𝖔",
             "prefijo": "#",
@@ -56,7 +61,7 @@
     },
     "developer": {
         "debug": "true",
-        "version": "7.6",
+        "version": "7.7",
         "mail_Organizacion": "GoldenCoders@protonmail.com",
         "linkgroupdev": "https://chat.whatsapp.com/KBCfTsDuPthGYZ1UN3IEDV",
         "usuario_Github": "Hiro-Beet",

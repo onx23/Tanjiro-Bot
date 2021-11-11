@@ -28,19 +28,29 @@ var menu_staff = (nombreBot, owner, nombreOwner, prefijo, creditosDefault, nezuk
 ║
 ╠${flecha} _${prefijo}bug_
 ║
-╠> << AntiSpam >>
+╠> << AllAntiSpam >>
 ║
 ╠${flecha} _${prefijo}allantispam on (👑)_
 ║
 ╠${flecha} _${prefijo}allantispam off (👑)_
 ║
+╠> << SocialAntiSpam >>
+║
 ╠${flecha} _${prefijo}socialantispam on (👑)_
 ║
 ╠${flecha} _${prefijo}socialantispam off (👑)_
 ║
+╠> << PostAntiSpam >>
+║
 ╠${flecha} _${prefijo}postantispam on (👑)_
 ║
 ╠${flecha} _${prefijo}postantispam off (👑)_
+║
+╠> << Notificaciones On/Off >>
+║
+╠${flecha} _${prefijo}notificaciones on (👑)_
+║
+╠${flecha} _${prefijo}notificaciones off (👑)_
 ║
 ╠> << Avisos >>
 ║
@@ -162,19 +172,29 @@ var menu_staff_premium = (nombreBot, owner, nombreOwner, prefijo, creditosDefaul
 ║
 ╠${flecha} _${prefijo}bug_
 ║
-╠> << AntiSpam >>
+╠> << AllAntiSpam >>
 ║
 ╠${flecha} _${prefijo}allantispam on_
 ║
 ╠${flecha} _${prefijo}allantispam off_
 ║
+╠> << SocialAntiSpam >>
+║
 ╠${flecha} _${prefijo}socialantispam on_
 ║
 ╠${flecha} _${prefijo}socialantispam off_
 ║
+╠> << PostAntiSpam >>
+║
 ╠${flecha} _${prefijo}postantispam on_
 ║
 ╠${flecha} _${prefijo}postantispam off_
+║
+╠> << Notificaciones On/Off >>
+║
+╠${flecha} _${prefijo}notificaciones on_
+║
+╠${flecha} _${prefijo}notificaciones off_
 ║
 ╠> << Avisos >>
 ║

@@ -1,0 +1,426 @@
+<!-- /*******************************************************************************************/
+    /* @fileoverview Frontend | Nezuko-API
+    /* -----------------------------------------------------------------------------------------
+    /* @version                              1.1.9
+    /* -----------------------------------------------------------------------------------------
+    /* @author                 Hiro-Beet <hirobeet@protonmail.com>
+    /* @copyright              GoldenCoders | Hiro-Beet
+    /* -----------------------------------------------------------------------------------------
+/*******************************************************************************************/ -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/vv4DySr/HiroIcon.png">
+    <title>
+    Tanjiro | Hiro-Beet
+    </title>
+    <!--     Fuentes e iconos     -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Iconos locales -->
+    <link rel="stylesheet" type="text/css"   href="/css/icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css"   href="/css/style.css">
+</head>
+
+<body class="">
+    <div class="wrapper">
+    <div class="sidebar">
+        <div class="sidebar-wrapper">
+        <div class="logo">
+            <a href="javascript:void(0)" class="simple-text logo-mini">
+            H
+            </a>
+            <a href="javascript:void(0)" class="simple-text logo-normal">
+            HiroBeet
+            </a>
+        </div>
+        <ul class="nav">
+            <li>
+            <a href="./home">
+                <i class="tim-icons icon-world"></i>
+                <p>Home</p>
+            </a>
+            </li>
+            <li>
+            <a href="./notificaciones">
+                <i class="tim-icons icon-bell-55"></i>
+                <p>Notificaciones</p>
+            </a>
+            </li>
+            <li class="active ">
+            <a href="./info">
+                <i class="tim-icons icon-single-02"></i>
+                <p>Info</p>
+            </a>
+            </li>
+            <li>
+            <a href="./configuracion">
+                <i class="tim-icons icon-settings-gear-63"></i>
+                <p>Configuracion</p>
+            </a>
+            </li>
+            <li>
+            <a target="_blank" href="https://chat.whatsapp.com/KBCfTsDuPthGYZ1UN3IEDV" >
+                <i class="tim-icons icon-alert-circle-exc"></i>
+                <p>Soporte</p>
+            </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div class="main-panel">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+        <div class="container-fluid">
+            <div class="navbar-wrapper">
+            <div class="navbar-toggle d-inline">
+                <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <a class="navbar-brand" href="javascript:void(0)">DASHBOARD | <%= nombrebot %></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+                <li class="dropdown nav-item">
+                <a href="./notificaciones" class="dropdown-toggle nav-link" >
+                    <div class="notification d-none d-lg-block d-xl-block"></div>
+                    <i class="tim-icons icon-sound-wave"></i>
+                    <p class="d-lg-none">
+                    Notificaciones
+                    </p>
+                </a>
+                </li>
+                <li class="separator d-lg-none"></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="tim-icons icon-simple-remove"></i>
+                </button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <!-- Final Navbar -->
+        <div class="content">
+        <div class="row">
+            <div class="col-12">
+            <div class="alert alert-primary" role="alert">
+                <%= owner %> aqui econtraras informacion sobre <%= nombrebot %>!
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Pagina</button>
+                <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="./info">Pagina |1|</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="./info2">Pagina |2|</a>
+                </div>
+              </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-center">|H|</th>
+                        <th>Configuracion</th>
+                        <th>Info</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td>Owner</td>
+                        <td><%= owner %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td>Numero Owner</td>
+                        <td><%= owner_numero %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td>Response Owner</td>
+                        <td><%= menu_owner_response %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">4</td>
+                        <td>Apagado (MS)</td>
+                        <td><%= ms_apagado %> MS</td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">5</td>
+                        <td>Reinicio (MS)</td>
+                        <td><%= ms_reinicio %> MS</td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">6</td>
+                        <td>Auto Reincio</td>
+                        <td><%= auto_restart %></td>
+                        <td><%= ms_auto_restart %> MS</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">7</td>
+                        <td>Nombre Bot</td>
+                        <td><%= nombrebot %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">8</td>
+                        <td>Prefijo</td>
+                        <td><%= prefijo %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">9</td>
+                        <td>Zona Horaria</td>
+                        <td><%= zona_horaria %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td>Cooldown</td>
+                        <td><%= cooldown_activado %></td>
+                        <td><%= ms_espera %> MS</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+        </div>
+        </div>
+        <footer class="footer">
+        <div class="container-fluid">
+            <ul class="nav">
+            <li class="nav-item">
+                <a href="./home" class="nav-link">
+                Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="./notificaciones" class="nav-link">
+                Notificaciones
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="./info" class="nav-link">
+                Info
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="./configuracion" class="nav-link">
+                Configuracion
+                </a>
+            </li>
+            <li class="nav-item">
+                <a target="_blank" href="https://chat.whatsapp.com/KBCfTsDuPthGYZ1UN3IEDV" class="nav-link">
+                Soporte
+                </a>
+            </li>
+            <li class="nav-item">
+                <a target="_blank" href="https://github.com/Hiro-Beet/Tanjiro-Bot" class="nav-link">
+                Github
+                </a>
+            </li>
+            </ul>
+            <div class="copyright">
+            ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script> hecho con <i class="tim-icons icon-heart-2"></i> por
+            <a href="https://github.com/Hiro-Beet" target="_blank">Hiro-Beet</a> para la comunidad.
+            </div>
+        </div>
+        </footer>
+    </div>
+    </div>
+    <div class="fixed-plugin">
+    <div class="dropdown show-dropdown">
+        <a href="#" data-toggle="dropdown">
+        <i class="fa fa-cog fa-2x"> </i>
+        </a>
+        <ul class="dropdown-menu">
+        <li class="header-title"> Background</li>
+        <li class="adjustments-line">
+            <a href="javascript:void(0)" class="switch-trigger background-color">
+            <div class="badge-colors text-center">
+                <span class="badge filter badge-primary active" data-color="primary"></span>
+                <span class="badge filter badge-info" data-color="blue"></span>
+                <span class="badge filter badge-success" data-color="green"></span>
+            </div>
+            <div class="clearfix"></div>
+            </a>
+        </li>
+        <li class="adjustments-line text-center color-change">
+            <span class="color-label">MODO BLANCO</span>
+            <span class="badge light-badge mr-2"></span>
+            <span class="badge dark-badge ml-2"></span>
+            <span class="color-label">MODO NEGRO</span>
+        </li>
+        <li class="button-container">
+            <a href="https://heroku.com/deploy?template=https://github.com/Hiro-Beet/Tanjiro-Bot" target="_blank" class="btn btn-primary btn-block btn-round">Deploy my own</a>
+        </li>
+        <li class="header-title">GRACIAS por todo!</li>
+        <li class="button-container text-center">
+            <a class="github-button" href="https://github.com/Hiro-Beet/Tanjiro-Bot" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Dame una estrella!</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+    <script src="js/core/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+    <script src="js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <script src="js/plugins/bootstrap-notify.js"></script>
+    <script>
+    $(document).ready(function() {
+        $().ready(function() {
+        $sidebar = $('.sidebar');
+        $navbar = $('.navbar');
+        $main_panel = $('.main-panel');
+
+        $full_page = $('.full-page');
+
+        $sidebar_responsive = $('body > .navbar-collapse');
+        sidebar_mini_active = true;
+        white_color = false;
+
+        window_width = $(window).width();
+
+        fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
+
+
+
+        $('.fixed-plugin a').click(function(event) {
+            if ($(this).hasClass('switch-trigger')) {
+            if (event.stopPropagation) {
+                event.stopPropagation();
+            } else if (window.event) {
+                window.event.cancelBubble = true;
+            }
+            }
+        });
+
+        $('.fixed-plugin .background-color span').click(function() {
+            $(this).siblings().removeClass('active');
+            $(this).addClass('active');
+
+            var new_color = $(this).data('color');
+
+            if ($sidebar.length != 0) {
+            $sidebar.attr('data', new_color);
+            }
+
+            if ($main_panel.length != 0) {
+            $main_panel.attr('data', new_color);
+            }
+
+            if ($full_page.length != 0) {
+            $full_page.attr('filter-color', new_color);
+            }
+
+            if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.attr('data', new_color);
+            }
+        });
+
+        $('.switch-sidebar-mini input').on("switchChange.bootstrapSwitch", function() {
+            var $btn = $(this);
+
+            if (sidebar_mini_active == true) {
+            $('body').removeClass('sidebar-mini');
+            sidebar_mini_active = false;
+            blackDashboard.showSidebarMessage('Sidebar mini deactivated...');
+            } else {
+            $('body').addClass('sidebar-mini');
+            sidebar_mini_active = true;
+            blackDashboard.showSidebarMessage('Sidebar mini activated...');
+            }
+
+            var simulateWindowResize = setInterval(function() {
+            window.dispatchEvent(new Event('resize'));
+            }, 180);
+
+            setTimeout(function() {
+            clearInterval(simulateWindowResize);
+            }, 1000);
+        });
+
+        $('.switch-change-color input').on("switchChange.bootstrapSwitch", function() {
+            var $btn = $(this);
+
+            if (white_color == true) {
+
+            $('body').addClass('change-background');
+            setTimeout(function() {
+                $('body').removeClass('change-background');
+                $('body').removeClass('white-content');
+            }, 900);
+            white_color = false;
+            } else {
+
+            $('body').addClass('change-background');
+            setTimeout(function() {
+                $('body').removeClass('change-background');
+                $('body').addClass('white-content');
+            }, 900);
+
+            white_color = true;
+            }
+
+
+        });
+
+        $('.light-badge').click(function() {
+            $('body').addClass('white-content');
+        });
+
+        $('.dark-badge').click(function() {
+            $('body').removeClass('white-content');
+        });
+        });
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        demo.initDashboardPageCharts();
+
+    });
+    </script>
+    <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+    <script>
+    window.TrackJS &&
+        TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "black-dashboard-free"
+        });
+    </script>
+</body>
+
+</html>
