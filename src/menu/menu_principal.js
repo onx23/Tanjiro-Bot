@@ -1,3 +1,15 @@
+/*******************************************************************************************/
+ /* @fileoverview Archivo segundario de Tanjiro.
+ /* -----------------------------------------------------------------------------------------
+ /* @version                               7.8
+ /* -----------------------------------------------------------------------------------------
+ /* @author                 HiroBeet <hiro@spiralnodes.xyz>
+ /* @copyright              GoldenCoers
+ /* -----------------------------------------------------------------------------------------
+ /* El Bot esta completamente por mi. Hiro | Tanjiro
+
+/*******************************************************************************************/
+
 var menu_principal = (nombreBot, owner, nombreOwner, prefijo, creditosDefault, nezuko_api, separadorArriba, separadorKawaii, separadorAbajo, flecha) => {
     return `
 ${separadorArriba}
