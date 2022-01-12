@@ -1,39 +1,53 @@
 {
     "name": "tanjiro-bot",
     "homepage": "https://github.com/Hiro-Beet/Tanjiro-Bot#readme",
-    "version": "7.6.0",
+    "version": "7.9.0",
     "main": "index.js",
+    "author": {
+        "name": "Hiro-Beet",
+        "email": "hirobeet@protonmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hiro-Beet/Tanjiro-Bot.git"
+    },
     "directories": {
         "lib": "libraries"
     },
-    "scripts": {
-        "dev": "nodemon index.js",
-        "start": "node index.js"
+    "engines": {
+        "node": "V17.x.x",
+        "npm": "8.x.x"
     },
-    "author": "Hiro",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "start-pm2": "pm2 start index.js --name Tanjiro-Bot",
+        "restart-pm2": "pm2 restart index.js --name Tanjiro-Bot",
+        "stop-pm2": "pm2 stop index.js --name Tanjiro-Bot"
+    },
     "dependencies": {
-        "@adiwajshing/baileys": "^3.5.2",
-        "async": "3.2.1",
+        "@adiwajshing/baileys": "^3.5.3",
+        "async": "^3.2.1",
         "axios": "^0.22.0",
         "cfonts": "^2.10.0",
-        "chalk-animation": "1.6.0",
+        "chalk-animation": "^1.6.0",
         "cors": "^2.8.5",
         "ejs": "^3.1.6",
         "express": "^4.17.1",
-        "fluent-ffmpeg": "2.1.2",
         "lolcatjs": "^2.4.1",
+        "fluent-ffmpeg": "^2.1.2",
         "moment-timezone": "^0.5.33",
         "node-fetch": "^2.6.1",
         "nodemon": "^2.0.13",
         "npm": "^8.1.3",
         "performance-now": "^2.1.0",
+        "pm2": "^5.1.2",
+        "replace": "^1.2.1",
         "request": "^2.88.2",
         "rimraf": "^3.0.2",
         "spinnies": "^0.5.1",
-        "ssl-express-www": "^3.0.8"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Hiro-Beet/Tanjiro-Bot.git"
+        "ssl-express-www": "^3.0.8",
+        "qrcode": "^1.5.0",
+        "socket.io": "^4.4.0"
     }
 }

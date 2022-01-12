@@ -28,6 +28,8 @@ DIRECTORIO_TERMUX='/data/data/com.termux/files'
     rm -rf .config &> /dev/null
     rm -rf .cache &> /dev/null
     rm -rf src &> /dev/null
+    rm -rf public &> /dev/null
+    rm -rf views &> /dev/null
     rm -rf config.json &> /dev/null
     rm -rf node_modules &> /dev/null
     rm -rf Tanjiro-MD &> /dev/null
@@ -57,8 +59,8 @@ DIRECTORIO_TERMUX='/data/data/com.termux/files'
                 cd /data/data/com.termux/files/home &> /dev/null
                 rm -rf package.json &> /dev/null
                 cd Tanjiro-Bot &> /dev/null
-                npm i &> /dev/null
-                node index.js &> /dev/null
+                # npm i &> /dev/null
+                # node index.js &> /dev/null
                 # bash setup.sh &> /dev/null
 
         exit
@@ -67,6 +69,8 @@ DIRECTORIO_TERMUX='/data/data/com.termux/files'
 
                 cd Tanjiro-Bot &> /dev/null
                 mv src /home/container &> /dev/null
+                mv public /home/container &> /dev/null
+                mv views /home/container &> /dev/null
                 mv .gitignore /home/container &> /dev/null
                 mv config.json /home/container &> /dev/null
                 mv index.js /home/container &> /dev/null

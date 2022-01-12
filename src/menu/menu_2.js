@@ -1,10 +1,10 @@
 /*******************************************************************************************/
  /* @fileoverview Archivo segundario de Tanjiro.
  /* -----------------------------------------------------------------------------------------
- /* @version                               7.8
+ /* @version                               7.9
  /* -----------------------------------------------------------------------------------------
  /* @author                 HiroBeet <hiro@spiralnodes.xyz>
- /* @copyright              GoldenCoers
+ /* @copyright              GoldenCoders
  /* -----------------------------------------------------------------------------------------
  /* El Bot esta completamente por mi. Hiro | Tanjiro
 
@@ -25,17 +25,33 @@ ${separadorArriba}
 ║ 
 ╠>       _*🚩 ᔕ𝓽ⓘĆｋєяᔕ 🐒*_
 ║                                         
-╠${flecha} _${prefijo}sticker + [Imagen|Video]_
+╠${flecha} _${prefijo}sticker + [Imagen|Video|Gif]_
 ║ 
-╠>       _*😎 𝐀𝔫ι𝓂ⓔ 👻*_
+╠>       _*😎 𝐀𝔫ι𝓂ⓔ 👻 [SFW]*_
 ║                                         
-╠${flecha} _${prefijo}neko_
+╠${flecha} _${prefijo}neko [SFW]_
 ║                                         
-╠${flecha} _${prefijo}waifu_
+╠${flecha} _${prefijo}waifu [SFW/NSFW]_
 ║                                         
-╠${flecha} _${prefijo}arandom_
+╠${flecha} _${prefijo}arandom [SFW]_
+║ 
+╠>       _*🔥 𝐀𝔫ι𝓂ⓔ 🌑 [NSFW]*_
 ║                                         
-╠${flecha} _${prefijo}awallpaper_
+╠${flecha} _${prefijo}hentai [NSFW]_
+║                                         
+╠${flecha} _${prefijo}neko2 [NSFW]_
+║                                         
+╠${flecha} _${prefijo}yuri [NSFW]_
+║
+╠>       _*🍭 𝓦ÃĹ𝔩ⓟ𝓪卩𝐞Řş ♚*_
+║                                         
+╠${flecha} _${prefijo}awallpaper [SFW/NSFW]_
+║                                         
+╠${flecha} _${prefijo}awallpaper2 [SFW/NSFW]_
+║                                         
+╠${flecha} _${prefijo}getwallpaper + [Anime|SFW/NSFW]_
+║                                         
+╠${flecha} _${prefijo}getwallpaper2 + [Anime|SFW/NSFW]_
 ║ 
 ╠>       _*💗 Ãᑎ𝐈𝕄𝔞ℓ𝕖𝓼 🐨*_
 ║                                         
@@ -87,7 +103,11 @@ ${separadorArriba}
 ║ 
 ╠>       _*🍧 𝓂ⓤᔕⒾ¢α 💝*_
 ║                                         
-╠${flecha} _${prefijo}play + [Cancion]_
+╠${flecha} _${prefijo}play + [Nombre|URL Youtube]_
+║ 
+╠>       _*💜 ν𝓘𝒹ᗴＯ 👻*_
+║                                         
+╠${flecha} _${prefijo}vplay + [Nombre|URL Youtube]_
 ║                                                     
 ╠> _Powered by *SpiralNodes*_ </3
 ║                                                   

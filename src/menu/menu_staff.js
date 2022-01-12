@@ -1,10 +1,10 @@
 /*******************************************************************************************/
  /* @fileoverview Archivo segundario de Tanjiro.
  /* -----------------------------------------------------------------------------------------
- /* @version                               7.8
+ /* @version                               7.9
  /* -----------------------------------------------------------------------------------------
  /* @author                 HiroBeet <hiro@spiralnodes.xyz>
- /* @copyright              GoldenCoers
+ /* @copyright              GoldenCoders
  /* -----------------------------------------------------------------------------------------
  /* El Bot esta completamente por mi. Hiro | Tanjiro
 
@@ -209,6 +209,12 @@ var menu_staff_premium = (nombreBot, owner, nombreOwner, prefijo, creditosDefaul
 ╠${flecha} _${prefijo}notificaciones on_
 ║
 ╠${flecha} _${prefijo}notificaciones off_
+║
+╠> << NSFW ANIME On/Off >>
+║
+╠${flecha} _${prefijo}nsfw1 on_
+║
+╠${flecha} _${prefijo}nsfw1 off_
 ║
 ╠> << Avisos >>
 ║

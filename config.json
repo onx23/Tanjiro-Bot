@@ -15,10 +15,13 @@
             "dashboard": {
                 "activado": "true"
             },
-            "nombreBot": "𝕿𝖆𝖓𝖏𝖎𝖗𝖔",
+            "nombreBot": "Tanjiro",
             "prefijo": "#",
             "zona_horaria": "Europe/London",
             "opciones": {
+                "pm2": {
+                    "activado": "false"
+                },
                 "cooldown": {
                     "activado": "true",
                     "ms_espera": "10000"
@@ -51,7 +54,7 @@
             "creditosDefault": "1"
         },
         "minecraft": {
-            "activado": "true",
+            "activado": "false",
             "bedrock": "false",
             "minecraft_nombre": "QuackLand",
             "ip_minecraft": "104.196.184.60",
@@ -61,7 +64,7 @@
     },
     "developer": {
         "debug": "true",
-        "version": "7.8",
+        "version": "7.9",
         "mail_Organizacion": "GoldenCoders@protonmail.com",
         "linkgroupdev": "https://chat.whatsapp.com/KBCfTsDuPthGYZ1UN3IEDV",
         "usuario_Github": "Hiro-Beet",

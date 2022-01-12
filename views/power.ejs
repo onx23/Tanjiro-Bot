@@ -36,7 +36,7 @@
             H
             </a>
             <a href="javascript:void(0)" class="simple-text logo-normal">
-            HiroBeet
+             Hiro-Beet
             </a>
         </div>
         <ul class="nav">
@@ -59,9 +59,9 @@
             </a>
             </li>
             <li class="active ">
-            <a href="./configuracion">
+            <a href="./power">
                 <i class="tim-icons icon-settings-gear-63"></i>
-                <p>Configuracion</p>
+                <p>Power</p>
             </a>
             </li>
             <li>
@@ -85,7 +85,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
                 </button>
             </div>
-            <a class="navbar-brand" href="javascript:void(0)">DASHBOARD | En desarrollo</a>
+            <a class="navbar-brand" href="javascript:void(0)">DASHBOARD | Power</a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -103,6 +103,20 @@
                     </p>
                 </a>
                 </li>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                      <div class="photo">
+                        <img src="https://i.ibb.co/vv4DySr/HiroIcon.png" alt="Profile Photo">
+                      </div>
+                      <b class="caret d-none d-lg-block d-xl-block"></b>
+                    </a>
+                    <ul class="dropdown-menu dropdown-navbar">
+                      <li class="nav-link"><a href="./info" class="nav-item dropdown-item">Info</a></li>
+                      <li class="nav-link"><a href="./power" class="nav-item dropdown-item">Power</a></li>
+                      <li class="dropdown-divider"></li>
+                      <li class="nav-link"><a href="https://wa.me/+447309247974" class="nav-item dropdown-item">WhatsApp</a></li>
+                    </ul>
+                  </li>
                 <li class="separator d-lg-none"></li>
             </ul>
             </div>
@@ -123,12 +137,13 @@
         <!-- Final Navbar -->
         <div class="content">
         <div class="row">
-            <div class="card" style="width: 40rem;">
+            <div class="card" style="width: 50rem;">
                 <img class="card-img-top" src="https://i.ibb.co/kBW1z9w/desarrollo.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h4 class="card-title">Bajo desarrollo</h4>
-                  <p class="card-text">Esta seccion esta bajo desarrollo ahora mismo, por favor regresa al home!</p>
-                  <a href="./home" class="btn btn-primary">Home</a>
+                  <h4 class="card-title">Estado <%= nombrebot %></h4>
+                  <p class="card-text">Aqui podras reiniciar, o apagar a <%= nombrebot %> cuando quieras!</p>
+                  <button class="btn btn-danger animation-on-hover" type="button"><a href="./off">Apagar</a></button>
+                  <button class="btn btn-success animation-on-hover" type="button"><a href="./restart">Reiniciar</a></button>
                 </div>
               </div>
         </div>
@@ -151,8 +166,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="./configuracion" class="nav-link">
-                Configuracion
+                <a href="./power" class="nav-link">
+                Power
                 </a>
             </li>
             <li class="nav-item">

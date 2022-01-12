@@ -141,23 +141,92 @@
             <div class="alert alert-primary" role="alert">
                 <%= owner %> aqui econtraras informacion sobre <%= nombrebot %>!
             </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pagina
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./info">Pagina |HOME|</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./info1">Pagina |1|</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./info2">Pagina |2|</a>
+                </div>
+              </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="text-center">|H|</th>
+                        <th>Configuracion</th>
+                        <th>Info</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Cooldown</td>
+                        <td><%= cooldown_activado %></td>
+                        <td><%= ms_espera %> MS</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Llamadas</td>
+                        <td><%= llamadas_activadas %></td>
+                        <td>|------|</td> 
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Comandos DM</td>
+                        <td><%= dm_activado %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Buscador</td>
+                        <td><%= tipoBuscador %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Response Menu</td>
+                        <td><%= menu_response %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Minecraft Server</td>
+                        <td><%= minecraft_activado %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Nombre Servidor</td>
+                        <td><%= minecraft_nombre %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>IP Servidor</td>
+                        <td><%= ip_minecraft %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Puerto Servidor</td>
+                        <td><%= puerto_minecraft %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Version <%= nombrebot %></td>
+                        <td><%= version %></td>
+                        <td>|------|</td>
+                    </tr>
+                </tbody>
+            </table>
             </div>
-            <div class="card" style="width: 50rem;">
-                <img class="card-img-top" src="https://i.ibb.co/Zfq19r5/ae.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Selecciona el apartado de informacion que te gustaria visitar!</h4>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Informacion
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./info1">Pagina |1|</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="./info2">Pagina |2|</a>
-                        </div>
-                      </div>
-                </div>
-                </div>
+            </div>
         </div>
         </div>
         <footer class="footer">

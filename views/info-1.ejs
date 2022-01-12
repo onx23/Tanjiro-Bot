@@ -36,7 +36,7 @@
             H
             </a>
             <a href="javascript:void(0)" class="simple-text logo-normal">
-            HiroBeet
+             Hiro-Beet
             </a>
         </div>
         <ul class="nav">
@@ -59,9 +59,9 @@
             </a>
             </li>
             <li>
-            <a href="./configuracion">
+            <a href="./power">
                 <i class="tim-icons icon-settings-gear-63"></i>
-                <p>Configuracion</p>
+                <p>Power</p>
             </a>
             </li>
             <li>
@@ -103,6 +103,20 @@
                     </p>
                 </a>
                 </li>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                      <div class="photo">
+                        <img src="https://i.ibb.co/vv4DySr/HiroIcon.png" alt="Profile Photo">
+                      </div>
+                      <b class="caret d-none d-lg-block d-xl-block"></b>
+                    </a>
+                    <ul class="dropdown-menu dropdown-navbar">
+                      <li class="nav-link"><a href="./info" class="nav-item dropdown-item">Info</a></li>
+                      <li class="nav-link"><a href="./power" class="nav-item dropdown-item">Power</a></li>
+                      <li class="dropdown-divider"></li>
+                      <li class="nav-link"><a href="https://wa.me/+447309247974" class="nav-item dropdown-item">WhatsApp</a></li>
+                    </ul>
+                  </li>
                 <li class="separator d-lg-none"></li>
             </ul>
             </div>
@@ -128,15 +142,15 @@
                 <%= owner %> aqui econtraras informacion sobre <%= nombrebot %>!
             </div>
             <div class="btn-group">
-                <button type="button" class="btn btn-primary">Pagina</button>
-                <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="sr-only">Toggle Dropdown</span>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pagina
                 </button>
                 <div class="dropdown-menu">
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="./info">Pagina |1|</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="./info2">Pagina |2|</a>
+                    <a class="dropdown-item" href="./info">Pagina |HOME|</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./info1">Pagina |1|</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./info2">Pagina |2|</a>
                 </div>
               </div>
             <table class="table">
@@ -150,57 +164,63 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="text-center">11</td>
-                        <td>Llamadas</td>
-                        <td><%= llamadas_activadas %></td>
-                        <td>|------|</td> 
-                    </tr>
-                    <tr>
-                        <td class="text-center">12</td>
-                        <td>Comandos DM</td>
-                        <td><%= dm_activado %></td>
+                        <td class="text-center">•</td>
+                        <td>Owner</td>
+                        <td><%= owner %></td>
                         <td>|------|</td>
                     </tr>
                     <tr>
-                        <td class="text-center">13</td>
-                        <td>Buscador</td>
-                        <td><%= tipoBuscador %></td>
+                        <td class="text-center">•</td>
+                        <td>Numero Owner</td>
+                        <td><%= owner_numero %></td>
                         <td>|------|</td>
                     </tr>
                     <tr>
-                        <td class="text-center">14</td>
-                        <td>Response Menu</td>
-                        <td><%= menu_response %></td>
+                        <td class="text-center">•</td>
+                        <td>Response Owner</td>
+                        <td><%= menu_owner_response %></td>
                         <td>|------|</td>
                     </tr>
                     <tr>
-                        <td class="text-center">15</td>
-                        <td>Minecraft Server</td>
-                        <td><%= minecraft_activado %></td>
+                        <td class="text-center">•</td>
+                        <td>Apagado (MS)</td>
+                        <td><%= ms_apagado %> MS</td>
                         <td>|------|</td>
                     </tr>
                     <tr>
-                        <td class="text-center">16</td>
-                        <td>Nombre Servidor</td>
-                        <td><%= minecraft_nombre %></td>
+                        <td class="text-center">•</td>
+                        <td>Reinicio (MS)</td>
+                        <td><%= ms_reinicio %> MS</td>
                         <td>|------|</td>
                     </tr>
                     <tr>
-                        <td class="text-center">17</td>
-                        <td>IP Servidor</td>
-                        <td><%= ip_minecraft %></td>
+                        <td class="text-center">•</td>
+                        <td>Auto Reincio</td>
+                        <td><%= auto_restart %></td>
+                        <td><%= ms_auto_restart %> MS</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>Nombre Bot</td>
+                        <td><%= nombrebot %></td>
                         <td>|------|</td>
                     </tr>
                     <tr>
-                        <td class="text-center">18</td>
-                        <td>Puerto Servidor</td>
-                        <td><%= puerto_minecraft %></td>
+                        <td class="text-center">•</td>
+                        <td>Prefijo</td>
+                        <td><%= prefijo %></td>
                         <td>|------|</td>
                     </tr>
                     <tr>
-                        <td class="text-center">19</td>
-                        <td>Version <%= nombrebot %></td>
-                        <td><%= version %></td>
+                        <td class="text-center">•</td>
+                        <td>Zona Horaria</td>
+                        <td><%= zona_horaria %></td>
+                        <td>|------|</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">•</td>
+                        <td>PM2</td>
+                        <td><%= pm2_activado %></td>
                         <td>|------|</td>
                     </tr>
                 </tbody>
@@ -228,8 +248,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="./configuracion" class="nav-link">
-                Configuracion
+                <a href="./power" class="nav-link">
+                Power
                 </a>
             </li>
             <li class="nav-item">
