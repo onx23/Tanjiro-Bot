@@ -15,7 +15,7 @@
         "lib": "libraries"
     },
     "engines": {
-        "node": "V17.x.x",
+        "node": "17.x.x",
         "npm": "8.x.x"
     },
     "scripts": {
