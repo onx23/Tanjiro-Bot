@@ -4,7 +4,7 @@
             "owner": {
                 "nombreOwner": "Chzbt",
                 "owner": "12542842666",
-                "menu_owner_response": "_*Hiro|Owner*_"
+                "menu_owner_response": "_*chk|Owner*_"
             },
             "power": {
                 "ms_apagado": "15000",
@@ -40,7 +40,7 @@
             "flecha": "➤"
         },
         "mensajes": {
-            "espera": "_Procesando..._ ⏳",
+            "espera": "_Espere_ ⏳",
             "hecho": "_Hecho!_ ✅",
             "mensaje_largo": "_Los datos introducidos son demasiado largos! ❌_",
             "mensaje_muy_largo": "_Estos datos son demasiado *largos* para este comando! ❌_",
@@ -48,7 +48,7 @@
             "solo_grupo": "_Este comando solo puede ser usado en un *grupo*_ ❌",
             "solo_admin": "_Necesitas ser_  _*Administrador(a)*_ _del grupo para usar este comando!_ ❌",
             "tanjiro_admin": "_Tanjiro necesita ser_ _*Administrador*_ _para usar este comando!_ ❌",
-            "muchas_peticiones": "_Hey! Se han hecho demasiadas peticiones en poco tiempo! ❌_"
+            "muchas_peticiones": "_Espera! Estas haciendo muchas peticiones! ❌_"
         },
         "stats": {
             "creditosDefault": "1"
