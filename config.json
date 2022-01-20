@@ -33,11 +33,11 @@
         },
         "menu": {
             "menu_response": "_*Powered by SpiralNodes </3*_",
-            "separadorComun": "━━━━✧❗✧━━━━",
-            "separadorArriba": "◥█▀▀▀▀▀▀▀▀▀▀▀▀▀▀█◤",
-            "separadorAbajo": "◢█▄▄▄▄▄▄▄▄▄▄▄▄▄▄█◣",
-            "separadorKawaii": "!! ━―━(･ω･)━―━― !!",
-            "flecha": "➤"
+            "separadorComun": "━━━━✧⚡✧━━━━",
+            "separadorArriba": "☆.。．†：＊・゜☆．。†．：＊・゜☆．",
+            "separadorAbajo": "☆.。．†：＊・゜☆．。†．：＊・゜☆．",
+            "separadorKawaii": "──── ∗ ⋅◈⋅ ∗ ────",
+            "flecha": "⇀"
         },
         "mensajes": {
             "espera": "_Espere_ ⏳",
