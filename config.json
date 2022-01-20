@@ -47,7 +47,7 @@
             "mensaje_corto": "_Los datos introducidos son muy cortos! ❌_",
             "solo_grupo": "_Este comando solo puede ser usado en un *grupo*_ ❌",
             "solo_admin": "_Necesitas ser_  _*Administrador(a)*_ _del grupo para usar este comando!_ ❌",
-            "tanjiro_admin": "_Tanjiro necesita ser_ _*Administrador*_ _para usar este comando!_ ❌",
+            "tanjiro_admin": "_Necesito ser_ _*Administrador*_ _para usar este comando!_ ❌",
             "muchas_peticiones": "_Espera! Estas haciendo muchas peticiones! ❌_"
         },
         "stats": {
