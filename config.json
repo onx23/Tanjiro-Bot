@@ -16,7 +16,7 @@
                 "activado": "true"
             },
             "nombreBot": "Tanjiro",
-            "prefijo": "#",
+            "prefijo": ".",
             "zona_horaria": "Europe/London",
             "opciones": {
                 "pm2": {
