@@ -20,7 +20,7 @@
             "zona_horaria": "Europe/London",
             "opciones": {
                 "pm2": {
-                    "activado": "false"
+                    "activado": "true"
                 },
                 "cooldown": {
                     "activado": "true",
